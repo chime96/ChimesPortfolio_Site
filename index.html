@@ -521,8 +521,8 @@ Let's connect and explore the exciting possibilities ahead!.
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  
-	let slideIndex = 1;
+  <script>
+	  let slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -552,6 +552,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+  </script>
   
 </body>
 </html>
